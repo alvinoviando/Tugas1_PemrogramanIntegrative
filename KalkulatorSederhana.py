@@ -1,7 +1,7 @@
-def kali (x,y) :
-    return x*y
+def bagi (x,y) :
+    return x/y
 
 x = int(input("Angka Pertama : "))
 y = int(input("Angka Kedua   : "))
 
-print("Hasil dari Perkalian adalah {}".format(kali(x,y)))
+print("Hasil dari Pembagiannya adalah {}".format(bagi(x,y)))

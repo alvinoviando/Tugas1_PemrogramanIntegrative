@@ -1,7 +1,7 @@
-def kurang (x,y) :
-    return x-y
+def kali (x,y) :
+    return x*y
 
 x = int(input("Angka Pertama : "))
 y = int(input("Angka Kedua   : "))
 
-print("Hasil dari Pengurangannya adalah {}".format(kurang(x,y)))
+print("Hasil dari Perkalian adalah {}".format(kali(x,y)))
